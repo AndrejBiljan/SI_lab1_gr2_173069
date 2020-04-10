@@ -2,6 +2,7 @@ class Student {
 	String index;
 	String firstName;
 	String lastName;
+	int grades[]= new int [];
 
 	//TODO constructor
 
