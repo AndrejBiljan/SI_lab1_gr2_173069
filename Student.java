@@ -51,3 +51,14 @@ class Student {
 		return grades.lenght * 6;
 	}
 }
+class Faculty {
+	String ime;
+	List<Student> Faculty = new ArrayList<Student>();
+
+	public void add(index,firstName,lastName){
+
+	Student temp = new Student(index, firstName, lastName);
+	Faculty.add(temp);
+
+	}
+}
